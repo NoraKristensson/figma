@@ -3,37 +3,89 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style/normalize.css" />
-    <link rel="stylesheet" href="style/index.css" />
+    <title>Figma-Nora</title>
+    <link rel="stylesheet" href="assets/style/normalize.css" />
+    <link rel="stylesheet" href="assets/style/index.css" />
     <link
-      href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
-    <nav class="navigation">
-      <img class="logo" src="img/Logo.png" alt="logo" />
-      <div class="nav-links">
-        <a class="link" href="">Products</a>
-        <a class="link" href="">Costumers</a>
-        <a class="link" href="">Pricing</a>
-        <a class="link" href="">Resources</a>
-      </div>
+    <main>
+      <section class="navigation">
+        <img class="logo" src="assets/img/Logo.png" alt="logo" />
 
-      <button class="sign-in">Sign in</button>
-      <button class="sign-up">Sign up</button>
-    </nav>
-    <header>
-      <div class="left-side">
-        <h1></h1>
-        <p></p>
-        <br />
-        <button></button>
-        <!-- icon -->
-        <a href=""></a>
-      </div>
-      <img src="" alt="" />
-    </header>
+        <div class="nav-links">
+          <a class="link" href="">Products</a>
+          <a class="link" href="">Costumers</a>
+          <a class="link" href="">Pricing</a>
+          <a class="link" href="">Resources</a>
+        </div>
+
+        <button class="sign-in">Sign in</button>
+        <button class="sign-up">Sign up</button>
+      </section>
+
+      <section class="header">
+        <div class="left-side">
+          <h1 class="site-heading">
+            The Design Thinking superpowers
+          </h1>
+
+          <p class="site-content">
+            Tools, tutorials, design and innovation experts, all in one place!
+            The most intuitive way to imagine your next user experience.
+          </p>
+
+          <button class="get-started">Get started</button>
+          <button class="watch-button">
+            <img class="triangle" src="assets/icons/icon-triangle.png" alt="" />
+            <!-- <i class="material-icons icon-large">
+              play_arrow
+            </i> -->
+            <a class="link-video" href="">Watch the Video</a>
+          </button>
+        </div>
+
+        <img
+          class="happy-people"
+          src="assets/img/happypeople.png"
+          alt="happy people"
+        />
+      </section>
+
+      <section class="feature">
+        <h2>We design tools to unveil your superpowers</h2>
+
+        <div class="card">
+          <div class="click-tests">
+            <img src="assets/icons/icon-arrow.png" alt="arrow" />
+            <h3>First click tests</h3>
+            <p>While most people enjoy casino gambling,</p>
+          </div>
+          <div class="design-surveys">
+            <img src="assets/icons/icon-design.png" alt="design" />
+            <h3>Design surveys</h3>
+            <p>Sports betting, lottery and bingo playing for the fun</p>
+          </div>
+          <div class="preference-tests">
+            <img src="assets/icons/icon-heart.png" alt="heart" />
+            <h3>Preference tests</h3>
+            <p>The Myspace page defines the individual.</p>
+          </div>
+          <div class="five-second-test">
+            <img src="assets/icons/icon-timeglass.png" alt="icon-timeglass" />
+            <h3>Five second tests</h3>
+            <p>Personal choices and the overall personality of the person.</p>
+          </div>
+        </div>
+        <button class="sign-up-now">SIGN UP NOW</button>
+      </section>
+    </main>
   </body>
 </html>
