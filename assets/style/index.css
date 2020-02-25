@@ -38,14 +38,21 @@ body {
   line-height: 2px;
   word-spacing: 27px;
 }
+.link:hover {
+  color: #ff9900;
+}
 
 .link {
   text-decoration: none;
 }
 
-.link:visited {
+/* .link:visited {
   text-decoration: none;
-  color: #2f281e;
+  color: black;
+} */
+
+.sign-in:hover {
+  background-color: #775298;
 }
 
 .sign-in {
@@ -61,6 +68,10 @@ body {
   border-radius: 4px;
   font-size: 16px;
   font-weight: 600;
+}
+
+.sign-up:hover {
+  background-color: #775298;
 }
 
 .sign-up {
@@ -109,6 +120,10 @@ body {
   letter-spacing: 2px;
 }
 
+.get-started:hover {
+  background-color: #775298;
+}
+
 .get-started {
   width: 175px;
   height: 53px;
@@ -125,9 +140,12 @@ body {
   margin-right: 30px;
 }
 
+.watch-button:hover {
+  background-color: #775298;
+}
 .watch-button {
   width: 200px;
-  height: 23px;
+  height: 53px;
   left: 350px;
   top: 504px;
 }
@@ -208,6 +226,10 @@ h3 {
   color: #544837;
 }
 
+.sign-up-now:hover {
+  background-color: #775298;
+}
+
 .sign-up-now {
   margin-left: 450px;
   margin-top: 418px;
@@ -235,25 +257,14 @@ h3 {
   margin-right: 145px;
 }
 
-.section-headings {
+.design {
   position: absolute;
   width: 486px;
   height: 531px;
-  /* top: 0px; */
+  top: 0px;
 }
 
-.main-content {
-  margin-top: 195px;
-}
-
-.effortless-content {
-  height: 54px;
-  width: 486px;
-  font-size: 16px;
-  line-height: 26px;
-}
-
-.design {
+.section-headings {
   height: 54px;
   width: 486px;
   text-align: left;
@@ -265,32 +276,32 @@ h3 {
   line-height: 54px;
 }
 
-.design-first {
-  width: 486px;
-  height: 78px;
-  margin-top: 12%;
+.main-content-design {
+  margin-top: 80px;
+  line-height: 26px;
 }
 
-.design-second {
+.design-second .text-right {
   position: absolute;
-  left: 0%;
-  right: 0%;
   top: 39.74%;
   bottom: 43.31%;
 }
 
-.design-third {
+.effortless-content .marketers-content {
+  height: 54px;
+  width: 486px;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.design-third .marketers-third {
   position: absolute;
-  left: 0%;
-  right: 0%;
   top: 61.39%;
   bottom: 21.66%;
 }
 
-.design-fourth {
+.design-fourth .marketers-fourth {
   position: absolute;
-  left: 0%;
-  right: 0%;
   top: 83.05%;
   bottom: 0%;
 }
@@ -328,4 +339,37 @@ h4 {
   height: 427px;
   left: 600px;
   top: 0px;
+}
+
+.main-content-manager {
+  margin-top: 22px;
+  line-height: 26px;
+}
+
+.manager-content {
+  left: 0%;
+  right: 11.52%;
+  margin-top: 30px;
+  line-height: 26px;
+}
+
+.marketers {
+  position: absolute;
+  width: 1110px;
+  height: 609px;
+  left: 147px;
+  top: 2697px;
+  margin-right: 143px;
+}
+
+.text-right {
+  position: absolute;
+  width: 486px;
+  height: 531px;
+  top: 0px;
+}
+
+.main-content-marketers {
+  margin-top: 80px;
+  line-height: 26px;
 }
