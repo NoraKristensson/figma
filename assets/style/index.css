@@ -132,7 +132,7 @@ body {
   top: 504px;
 }
 
-.triangle {
+.material-icons {
   color: #ff9900;
   margin-right: 8px;
 }
@@ -158,78 +158,50 @@ body {
   position: absolute;
   width: 2211px;
   height: 543px;
-  left: -406px;
   top: 734px;
+  right: 145px;
+  left: 145px;
 }
 
 h2 {
   position: absolute;
   height: 108px;
-  left: 38.22%;
-  right: 37.4%;
-  top: calc(50% - 108px / 2 - 217.5px);
+  width: 539px;
+  left: 350px;
+  right: 395px;
 
   font-weight: bold;
   font-size: 36px;
   line-height: 54px;
-  text-align: center;
 }
 
 .card {
   position: absolute;
   width: 1094px;
   height: 204px;
-  left: 567px;
   top: 162px;
   display: flex;
 }
 
-.click-test {
+.click-test .design-surveys .preference-tests .five-second-test {
   width: 240px;
   height: 178px;
-  left: 567px;
-}
-
-.design-surveys {
-  width: 240px;
-  height: 178px;
-  left: 853px;
-}
-
-.preference-tests {
-  width: 240px;
-  height: 178px;
-  left: 1138px;
-}
-
-.five-second-test {
-  width: 240px;
-  height: 204px;
-  left: 1421px;
 }
 
 h3 {
   height: 33px;
   width: 240px;
-  left: 0%;
-  right: 31.67%;
-  top: calc(50% - 33px / 2 - 32.5px);
-
   font-weight: 600;
   font-size: 22px;
   line-height: 33px;
 }
 
-p {
+.feature-content {
   width: 240px;
   height: 52px;
   margin-right: 45px;
-  left: 0%;
-  right: 0%;
-  top: 46.94%;
-  bottom: 0%;
 
-  font-weight: 500;
+  font-weight: 500px;
   font-size: 16px;
   line-height: 26px;
 
@@ -237,10 +209,10 @@ p {
 }
 
 .sign-up-now {
-  margin-left: 1060px;
+  margin-left: 450px;
   margin-top: 418px;
   margin-bottom: 104px;
-  margin-right: 1041px;
+
   width: 175px;
   height: 53px;
 
@@ -250,12 +222,110 @@ p {
 
   color: #ffffff;
 
+  background: #ff9900;
+  border-radius: 4px;
+}
+
+.effortless-validation {
+  position: absolute;
+  width: 486px;
+  height: 531px;
+  top: 1423px;
+  margin-left: 145px;
+  margin-right: 145px;
+}
+
+.section-headings {
+  position: absolute;
+  width: 486px;
+  height: 531px;
+  /* top: 0px; */
+}
+
+.main-content {
+  margin-top: 195px;
+}
+
+.effortless-content {
+  height: 54px;
+  width: 486px;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.design {
+  height: 54px;
+  width: 486px;
+  text-align: left;
+  left: 0%;
+  right: 20.78%;
+  top: calc(50% - 54px / 2 - 211.5px);
+
+  font-size: 36px;
+  line-height: 54px;
+}
+
+.design-first {
+  width: 486px;
+  height: 78px;
+  margin-top: 12%;
+}
+
+.design-second {
   position: absolute;
   left: 0%;
   right: 0%;
-  top: 0%;
-  bottom: 0%;
+  top: 39.74%;
+  bottom: 43.31%;
+}
 
-  background: #ff9900;
-  border-radius: 4px;
+.design-third {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 61.39%;
+  bottom: 21.66%;
+}
+
+.design-fourth {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 83.05%;
+  bottom: 0%;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.man-standing {
+  position: absolute;
+  width: 520px;
+  height: 574px;
+  left: 600px;
+  top: 0px;
+}
+
+.product-managers {
+  position: absolute;
+  width: 1121px;
+  height: 521px;
+  left: 144px;
+  top: 2072px;
+}
+
+.man-laptop {
+  width: 535px;
+  height: 521px;
+  left: 144px;
+}
+.managers {
+  position: absolute;
+  width: 486px;
+  height: 427px;
+  left: 600px;
+  top: 0px;
 }
